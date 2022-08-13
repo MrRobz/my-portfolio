@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 html {
+  @apply bg-white text-darkBlue;
   font-family: "Epilogue", sans-serif;
 }
