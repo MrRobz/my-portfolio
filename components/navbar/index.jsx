@@ -1,12 +1,26 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { MenuButton } from "./menu-button";
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const wrapperRef = useRef(null);
 
   const onMenuClick = () => {
     setIsMenuOpen((v) => !v);
   };
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (wrapperRef.current && !wrapperRef.current.contains(event.target)) {
+        setIsMenuOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [wrapperRef]);
 
   return (
     <nav className="mt-2 bg-white px-8 py-2.5 text-darkBlue md:mt-4">
@@ -22,7 +36,7 @@ const NavBar = () => {
           </span>
         </a>
 
-        <div>
+        <div ref={wrapperRef}>
           <MenuButton onMenuClick={onMenuClick} />
 
           <div
