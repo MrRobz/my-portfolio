@@ -23,8 +23,8 @@ const NavBar = () => {
   }, [wrapperRef]);
 
   return (
-    <nav className="mt-2 bg-white px-8 py-2.5 text-darkBlue md:mt-4">
-      <div className="container mx-auto flex items-center  justify-between">
+    <nav className="mt-2 bg-white py-2.5 text-darkBlue md:mt-4">
+      <div className="container mx-auto flex items-center justify-between px-8">
         <a href="https://flowbite.com/" className="flex items-center">
           <img
             src="https://flowbite.com/docs/images/logo.svg"
