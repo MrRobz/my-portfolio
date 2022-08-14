@@ -5,4 +5,6 @@
 html {
   @apply bg-white text-darkBlue;
   font-family: "Epilogue", sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
 }
