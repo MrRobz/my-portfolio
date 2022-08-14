@@ -8,7 +8,7 @@ export const ProjectItem = ({ info }) => {
       <div className="flex flex-col gap-4 lg:gap-5">
         <div className="text-md flex flex-wrap gap-2 text-gray">
           {tags.map((tag) => (
-            <div>#{tag}</div>
+            <div key={tag}>#{tag}</div>
           ))}
         </div>
 

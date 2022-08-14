@@ -1,5 +1,5 @@
 import iconShelfCover from "../../../public/icon-shelf.png";
-import priceRounderCover from "../../../public/price-rounder-99.avif";
+import priceRounderCover from "../../../public/price-rounder-99.png";
 import peerAppreciationCardsCover from "../../../public/peer-appreciation-cards.png";
 
 export const ProjectsInfoList = [
