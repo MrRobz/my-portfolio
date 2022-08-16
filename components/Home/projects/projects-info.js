@@ -12,7 +12,7 @@ export const ProjectsInfoList = [
   },
   {
     title: "Price Rounder 99: Round-off price tags",
-    desc: "Price Rounder 99 chrome extension that rounds off  the prices for you and shows the rounded price on your screen. So you can take a better decisions while online shopping.",
+    desc: "Price Rounder 99 chrome extension that rounds off  the prices for you and shows the rounded price on your screen. So you can take a better decisions while shopping online.",
     tags: ["Chrome extension", "Javascript"],
     cover: priceRounderCover,
     link: "https://www.producthunt.com/products/launchaco#price-rounder-99",
