@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { BlogsBlock } from "../components/Home/blogs";
 import { IntroBlock } from "../components/Home/intro-block";
 import ProjectsBlock from "../components/Home/projects";
 
@@ -8,6 +8,8 @@ const Home = () => {
       <IntroBlock />
 
       <ProjectsBlock />
+
+      <BlogsBlock />
     </div>
   );
 };
