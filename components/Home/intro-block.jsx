@@ -7,7 +7,7 @@ export const IntroBlock = () => {
         Hello 👋
       </h1>
       <h1 className="w-full p-1 text-3xl md:text-6xl lg:text-8xl">
-        I'm Robin Philip Thomas.
+        I&apos;m Robin Philip Thomas.
       </h1>
       <h1 className="w-full p-1 text-2xl md:text-5xl lg:text-7xl">
         I build things for the web

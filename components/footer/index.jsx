@@ -3,7 +3,7 @@ const Footer = () => {
     <footer id="footer" className="mt-32 w-full bg-gray2 md:mt-52">
       <div className="container mx-auto px-8 pt-16 pb-8">
         <div className="text-3xl font-medium lg:text-5xl">
-          Let's create something together.
+          Let&apos;s create something together.
         </div>
 
         <div className="mt-12 flex justify-between lg:text-xl">
@@ -11,6 +11,7 @@ const Footer = () => {
             href="https://twitter.com/Robie577"
             target="_blank"
             className="underline underline-offset-4 hover:text-primary"
+            rel="noreferrer"
           >
             Twitter
           </a>
@@ -18,6 +19,7 @@ const Footer = () => {
             href="https://github.com/MrRobz"
             target="_blank"
             className="underline underline-offset-4 hover:text-primary"
+            rel="noreferrer"
           >
             Github
           </a>
@@ -25,6 +27,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/robinpt/"
             target="_blank"
             className="underline underline-offset-4 hover:text-primary"
+            rel="noreferrer"
           >
             LinkedIn
           </a>
@@ -32,6 +35,7 @@ const Footer = () => {
             href="https://blog.robie.dev"
             target="_blank"
             className="underline underline-offset-4 hover:text-primary"
+            rel="noreferrer"
           >
             Blog
           </a>
@@ -39,6 +43,7 @@ const Footer = () => {
             href="mailto:robinphilipthomas@outlook.in"
             target="_blank"
             className="underline underline-offset-4 hover:text-primary"
+            rel="noreferrer"
           >
             Email
           </a>

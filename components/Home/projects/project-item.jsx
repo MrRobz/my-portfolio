@@ -17,14 +17,19 @@ export const ProjectItem = ({ info }) => {
           {desc}
         </div>
         <div className="text-lg lg:font-semibold">
-          <a href={link} target="_blank" className="font-medium text-primary">
+          <a
+            href={link}
+            target="_blank"
+            className="font-medium text-primary"
+            rel="noreferrer"
+          >
             View project
           </a>
         </div>
       </div>
 
       <div>
-        <Image src={cover} className="rounded-3xl" />
+        <Image src={cover} className="rounded-3xl" alt="project-cover-image" />
       </div>
     </div>
   );
