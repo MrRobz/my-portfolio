@@ -1,9 +1,17 @@
+import { useRouter } from "next/router";
+
 const Footer = () => {
+  const router = useRouter();
+
+  const isAboutPage = router.pathname.includes("/about-me");
+
   return (
     <footer id="footer" className="mt-32 w-full bg-gray2 md:mt-52">
       <div className="container mx-auto px-8 pt-16 pb-8">
         <div className="text-3xl font-medium lg:text-5xl">
-          Let&apos;s create something together.
+          {!isAboutPage
+            ? "Let's create something together."
+            : "If you fancy a chat feel free to drop me a line."}
         </div>
 
         <div className="mt-12 flex justify-between lg:text-xl">
