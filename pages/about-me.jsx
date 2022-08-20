@@ -7,7 +7,7 @@ const AboutMe = () => {
 
   return (
     <div className="w-full">
-      <div className="container mx-auto mt-8 px-72 md:mt-8">
+      <div className="container mx-auto mt-8 px-8 md:mt-8 lg:px-72">
         <div className="pl-8">
           <Image
             src={ProfileImg}

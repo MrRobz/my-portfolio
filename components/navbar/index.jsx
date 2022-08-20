@@ -40,9 +40,9 @@ const NavBar = () => {
               isMenuOpen ? "visible" : "hidden"
             }`}
           >
-            <ul className="border-gray-100 bg-gray-50 absolute right-0 -top-3 mr-3 mt-4 flex w-72 flex-col rounded-lg border p-4 md:static md:w-auto md:flex-row md:space-x-8 md:border-0 md:bg-white md:pt-1 md:text-sm md:font-medium">
+            <ul className="border-gray-100 absolute right-0 -top-3 mr-3 mt-4 flex w-72 flex-col rounded-lg border bg-white p-4 md:static md:w-auto md:flex-row md:space-x-8 md:border-0 md:bg-white md:pt-1 md:text-sm md:font-medium">
               <li>
-                <Link href="/#home-projects">
+                <Link href="/projects">
                   <a className="text-gray-700 hover:bg-gray-100 block rounded py-2 pr-4 pl-3 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-primary">
                     Projects
                   </a>

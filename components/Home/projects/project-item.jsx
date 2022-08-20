@@ -5,7 +5,7 @@ export const ProjectItem = ({ info }) => {
 
   return (
     <div className="flex flex-col gap-12 lg:flex-row">
-      <div className="flex flex-col gap-4 lg:gap-5">
+      <div className="flex flex-col gap-4 lg:basis-3/4 lg:gap-5">
         <div className="text-md flex flex-wrap gap-2 text-gray">
           {tags.map((tag) => (
             <div key={tag}>#{tag}</div>
@@ -28,8 +28,13 @@ export const ProjectItem = ({ info }) => {
         </div>
       </div>
 
-      <div>
-        <Image src={cover} className="rounded-3xl" alt="project-cover-image" />
+      <div className="w-full">
+        <Image
+          src={cover}
+          objectFit="cover"
+          className="rounded-3xl"
+          alt="project-cover-image"
+        />
       </div>
     </div>
   );
