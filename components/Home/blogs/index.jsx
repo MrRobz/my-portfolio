@@ -12,6 +12,14 @@ export const BlogsBlock = () => {
           <BlogItem blog={blog} key={blog.title} />
         ))}
       </div>
+      <div className="mt-20 flex items-center justify-center">
+        <a
+          href="https://blog.robie.dev"
+          className="rounded-lg border-2 border-gray px-4 py-2 text-lg font-medium text-gray opacity-75 hover:opacity-100 lg:font-semibold"
+        >
+          View more
+        </a>
+      </div>
     </div>
   );
 };
