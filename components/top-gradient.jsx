@@ -1,7 +1,7 @@
 export const TopGradient = () => {
   return (
     <div
-      className="pointer-events-none absolute -top-9 h-16 w-screen opacity-50 blur-2xl"
+      className="pointer-events-none absolute -top-9 h-16 w-full opacity-50 blur-2xl"
       style={{
         zIndex: "100",
         background:
