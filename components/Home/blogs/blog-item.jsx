@@ -1,9 +1,9 @@
 export const BlogItem = ({ blog }) => {
   return (
     <a href={`https://blog.robie.dev/${blog.slug}`}>
-      <div className="flex h-full w-full flex-col">
+      <div className="flex h-full w-full flex-col rounded-lg transition-all duration-300 ease-out hover:scale-105 hover:bg-slate-50 md:p-4">
         <div
-          className="mt-6 overflow-hidden text-3xl font-semibold hover:text-primary md:h-20"
+          className="mt-6 overflow-hidden text-3xl font-semibold md:h-20"
           title={blog.title}
           style={{
             display: "-webkit-box",
