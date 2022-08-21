@@ -1,16 +1,26 @@
+import Head from "next/head";
 import { BlogsBlock } from "../components/Home/blogs";
 import { IntroBlock } from "../components/Home/intro-block/index";
 import ProjectsBlock from "../components/Home/projects";
 
 const Home = () => {
   return (
-    <div className="w-full">
-      <IntroBlock />
+    <>
+      <Head>
+        <meta
+          name="description"
+          content="Robin Philip Thomas's portfolio website."
+        />
+      </Head>
 
-      <ProjectsBlock />
+      <div className="w-full">
+        <IntroBlock />
 
-      <BlogsBlock />
-    </div>
+        <ProjectsBlock />
+
+        <BlogsBlock />
+      </div>
+    </>
   );
 };
 
