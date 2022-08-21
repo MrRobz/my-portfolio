@@ -1,5 +1,5 @@
 import { BlogsBlock } from "../components/Home/blogs";
-import { IntroBlock } from "../components/Home/intro-block";
+import { IntroBlock } from "../components/Home/intro-block/index";
 import ProjectsBlock from "../components/Home/projects";
 
 const Home = () => {
