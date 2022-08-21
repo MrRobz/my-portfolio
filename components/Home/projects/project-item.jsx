@@ -28,11 +28,12 @@ export const ProjectItem = ({ info }) => {
         </div>
       </div>
 
-      <div className="w-full">
+      <div className="h-full w-full overflow-hidden rounded-3xl">
         <Image
           src={cover}
           objectFit="cover"
-          className="rounded-3xl"
+          layout="responsive"
+          className="transition-all duration-300 ease-out hover:scale-110"
           alt="project-cover-image"
         />
       </div>
