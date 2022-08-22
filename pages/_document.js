@@ -18,7 +18,10 @@ class MyDocument extends Document {
             property="og:description"
             content="Robin Philip Thomas's portfolio website."
           />
-          <meta property="og:image" content="/social-share-img.png" />
+          <meta
+            property="og:image"
+            content="https://www.robie.dev/social-share-img.png"
+          />
 
           {/* <!-- Twitter --> */}
           <meta property="twitter:card" content="summary_large_image" />
@@ -28,7 +31,10 @@ class MyDocument extends Document {
             property="twitter:description"
             content="Robin Philip Thomas's portfolio website."
           />
-          <meta property="twitter:image" content="/social-share-img.png" />
+          <meta
+            property="twitter:image"
+            content="https://www.robie.dev/social-share-img.png"
+          />
         </Head>
         <body>
           <Main />
