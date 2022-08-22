@@ -21,7 +21,7 @@ class MyDocument extends Document {
           <meta property="og:image" content="/social-share-img.png" />
 
           {/* <!-- Twitter --> */}
-          <meta property="twitter:card" content="/social-share-img.png" />
+          <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.robie.dev/" />
           <meta property="twitter:title" content="Robin Philip Thomas" />
           <meta
