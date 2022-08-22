@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import ProfileImg from "../public/robin-2.png";
+import { AboutPic } from "../components/about-me/about-pic";
 
 const AboutMe = () => {
   const yearsOfExp = new Date().getFullYear() - 2016;
@@ -16,17 +16,7 @@ const AboutMe = () => {
       </Head>
       <div className="w-full">
         <div className="container mx-auto mt-8 px-8 md:mt-8 lg:px-72">
-          <div className="relative h-60 w-60 pl-8">
-            <Image
-              src={ProfileImg}
-              objectFit="cover"
-              width={200}
-              height={200}
-              className="rounded-full bg-blue-200 object-cover"
-              layout="responsive"
-              alt="robin profile image"
-            />
-          </div>
+          <AboutPic />
 
           <div className="mt-12 text-2xl">
             Hi there! I&apos;m Robin, a frontend dev.
