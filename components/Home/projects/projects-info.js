@@ -6,6 +6,7 @@ import notionPlannerCover from "../../../public/notion-planner.png";
 import emberTributeCover from "../../../public/ember-tribute.png";
 import interviewCodeCover from "../../../public/interview-code.png";
 import lauraDeskCover from "../../../public/lauradesk.png";
+import sourcePatchCover from "../../../public/projects/source-patch.png";
 
 export const ProjectsInfoList = [
   {
@@ -18,9 +19,9 @@ export const ProjectsInfoList = [
   },
   {
     title: "Source Patch: Code editor as a Chrome extension",
-    desc: "A tool to quickly make changes to website source code and create a Github PR with a single click, eliminating the need to open development tools.",
+    desc: "Edit source code of your website without leaving your tab. Quickly make changes to website source code and create a Github PR with a single click, eliminating the need to open development tools.",
     tags: ["Chrome extension", "React"],
-    cover: iconShelfCover,
+    cover: sourcePatchCover,
     link: "https://chrome.google.com/webstore/detail/source-patch/meldpjcodilmepbidcokobfflljecbbf",
     featured: true,
   },
