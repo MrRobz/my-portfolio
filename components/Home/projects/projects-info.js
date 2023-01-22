@@ -17,6 +17,14 @@ export const ProjectsInfoList = [
     featured: true,
   },
   {
+    title: "Source Patch: Code editor as a Chrome extension",
+    desc: "A tool to quickly make changes to website source code and create a Github PR with a single click, eliminating the need to open development tools.",
+    tags: ["Chrome extension", "React"],
+    cover: iconShelfCover,
+    link: "https://chrome.google.com/webstore/detail/source-patch/meldpjcodilmepbidcokobfflljecbbf",
+    featured: true,
+  },
+  {
     title: "Price Rounder 99: Round-off price tags",
     desc: "Price Rounder 99 chrome extension that rounds off  the prices for you and shows the rounded price on your screen. So you can take a better decisions while shopping online.",
     tags: ["Chrome extension", "Javascript"],
@@ -30,7 +38,7 @@ export const ProjectsInfoList = [
     tags: ["Web app", "Emberjs"],
     cover: peerAppreciationCardsCover,
     link: "https://peer-appreciation-cards.netlify.app/",
-    featured: true,
+    featured: false,
   },
   {
     title: "Menubar Auto Brightness",
