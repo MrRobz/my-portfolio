@@ -42,13 +42,11 @@ const NavBar = () => {
           >
             <ul className="border-gray-100 absolute right-0 -top-3 mr-3 mt-4 flex w-72 flex-col rounded-lg border bg-white p-4 md:static md:w-auto md:flex-row md:space-x-8 md:border-0 md:bg-white md:pt-1 md:text-sm md:font-medium">
               <li>
-                <Link href="/projects">
-                  <a
-                    className="text-gray-700 hover:bg-gray-100 block rounded py-2 pr-4 pl-3 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-primary"
-                    onClick={onMenuClick}
-                  >
-                    Projects
-                  </a>
+                <Link
+                  href="/projects"
+                  className="text-gray-700 hover:bg-gray-100 block rounded py-2 pr-4 pl-3 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-primary"
+                >
+                  <span onClick={onMenuClick}>Projects</span>
                 </Link>
               </li>
               <li>
@@ -63,13 +61,11 @@ const NavBar = () => {
                 </a>
               </li>
               <li>
-                <Link href="/about-me">
-                  <a
-                    className="text-gray-700 hover:bg-gray-100 block rounded py-2 pr-4 pl-3 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-primary"
-                    onClick={onMenuClick}
-                  >
-                    About me
-                  </a>
+                <Link
+                  href="/about-me"
+                  className="text-gray-700 hover:bg-gray-100 block rounded py-2 pr-4 pl-3 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-primary"
+                >
+                  <span onClick={onMenuClick}>About me</span>
                 </Link>
               </li>
             </ul>

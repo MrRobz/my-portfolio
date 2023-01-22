@@ -21,11 +21,11 @@ export const IntroBlock = () => {
 
       <div className="mt-12 w-full md:mt-52">
         <div className="flex justify-center text-sm md:justify-between md:text-2xl">
-          <Link href="#home-projects">
-            <a className="font-normal">Some things I’ve built 👇</a>
+          <Link href="#home-projects" className="font-normal">
+            Some things I’ve built 👇
           </Link>
-          <Link href="#footer">
-            <a className="hidden font-normal md:block">Contact me</a>
+          <Link href="#footer" className="hidden font-normal md:block">
+            Contact me
           </Link>
         </div>
 

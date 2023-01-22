@@ -31,8 +31,6 @@ export const ProjectItem = ({ info }) => {
       <div className="h-full w-full overflow-hidden rounded-3xl">
         <Image
           src={cover}
-          objectFit="cover"
-          layout="responsive"
           className="transition-all duration-300 ease-out hover:scale-110"
           alt="project-cover-image"
         />
